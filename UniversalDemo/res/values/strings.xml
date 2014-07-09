@@ -23,5 +23,21 @@
     <string name="btn_parser">Parse</string>
     <string name="btn_play">Play</string>
     
+    <string name="circular_progress_button">Circular ProgressButton</string>
+    <string name="Upload">Upload</string>
+    <string name="Error">Error</string>
+    <string name="Complete">Complete</string>
+    <string name="IndeterminateProgressSample">Indeterminate Progress Sample</string>
+    <string name="IntegerProgressSample">Integer Progress Sample</string>
+    <string name="StateChangeSample">State Change Sample</string>
+    <string name="ProgressPaddingSample">Progress Padding Sample</string>
+
+    <array name="sample_list">
+        <item>Indeterminate Progress Sample</item>
+        <item>Integer Progress Sample</item>
+        <item>State Change Sample</item>
+        <item>Progress Padding Sample</item>
+    </array>
+    
 </resources>
  

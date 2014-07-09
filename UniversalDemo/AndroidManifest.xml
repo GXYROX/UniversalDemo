@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.teenstian.universaldemo"
     android:versionCode="1"
-    android:versionName="1.0.0 (T040100)" >
+    android:versionName="0.0.1 (T040100)" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -27,44 +27,64 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.teenstian.universaldemo.LayoutActivity"
+            android:name="com.teenstian.universaldemo.demolayout.LayoutActivity"
             android:label="@string/activity_demo" >
         </activity>
         <activity
-            android:name="com.teenstian.universaldemo.CircleImageActivity"
+            android:name="com.teenstian.universaldemo.circleimage.CircleImageActivity"
             android:label="@string/circle_image" >
         </activity>
         <activity
-            android:name="com.teenstian.universaldemo.ViewAnimationActivity"
+            android:name="com.teenstian.universaldemo.viewanimation.ViewAnimationActivity"
             android:label="@string/view_animation" >
         </activity>
         <activity
-            android:name="com.teenstian.universaldemo.ExampleActivity"
+            android:name="com.teenstian.universaldemo.viewanimation.ExampleActivity"
             android:label="@string/view_animation" >
         </activity>
         <activity
-            android:name="com.teenstian.universaldemo.CompoundViewsActivity"
+            android:name="com.teenstian.universaldemo.compoundviews.CompoundViewsActivity"
             android:label="@string/compound_views" >
         </activity>
         <activity
-            android:name="com.teenstian.universaldemo.FriendCountActivity"
+            android:name="com.teenstian.universaldemo.compoundviews.FriendCountActivity"
             android:label="@string/compound_views" >
         </activity>
         <activity
-            android:name="com.teenstian.universaldemo.QREncodeActivity"
+            android:name="com.teenstian.universaldemo.qrcode.QREncodeActivity"
             android:label="@string/qr_encode" >
         </activity>
         <activity
-            android:name="com.teenstian.universaldemo.PagerSlidingActivity"
+            android:name="com.teenstian.universaldemo.pagersliding.PagerSlidingActivity"
             android:label="@string/pager_sliding" >
         </activity>
         <activity
-            android:name="com.teenstian.universaldemo.VparserMainActivity"
+            android:name="com.teenstian.universaldemo.vparser.VparserMainActivity"
             android:label="@string/vparser" >
         </activity>
         <activity
-            android:name="com.teenstian.universaldemo.VideoPlayActivity"
+            android:name="com.teenstian.universaldemo.vparser.VideoPlayActivity"
             android:label="@string/play" >
+        </activity>
+        <activity
+            android:name="com.teenstian.universaldemo.progressbutton.ProgressButtonActivity"
+            android:label="@string/circular_progress_button" >
+        </activity>
+        <activity
+            android:name="com.teenstian.universaldemo.progressbutton.Sample1Activity"
+            android:label="@string/circular_progress_button" >
+        </activity>
+        <activity
+            android:name="com.teenstian.universaldemo.progressbutton.Sample2Activity"
+            android:label="@string/circular_progress_button" >
+        </activity>
+        <activity
+            android:name="com.teenstian.universaldemo.progressbutton.Sample3Activity"
+            android:label="@string/circular_progress_button" >
+        </activity>
+        <activity
+            android:name="com.teenstian.universaldemo.progressbutton.Sample4Activity"
+            android:label="@string/circular_progress_button" >
         </activity>
     </application>
 

@@ -3,6 +3,14 @@ package com.teenstian.universaldemo;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.teenstian.universaldemo.circleimage.CircleImageActivity;
+import com.teenstian.universaldemo.compoundviews.CompoundViewsActivity;
+import com.teenstian.universaldemo.demolayout.LayoutActivity;
+import com.teenstian.universaldemo.progressbutton.ProgressButtonActivity;
+import com.teenstian.universaldemo.qrcode.QREncodeActivity;
+import com.teenstian.universaldemo.viewanimation.ViewAnimationActivity;
+import com.teenstian.universaldemo.vparser.VparserMainActivity;
+
 import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
@@ -99,7 +107,10 @@ public class MainActivity extends Activity {
 					case 5:
 						intent.setClass(getActivity(), VparserMainActivity.class);
 						break;
-//					case 6:
+					case 6:
+						intent.setClass(getActivity(), ProgressButtonActivity.class);
+						break;
+//					case 7:
 //						intent.setClass(getActivity(), PagerSlidingActivity.class);
 //						break;
 					default:
@@ -120,6 +131,7 @@ public class MainActivity extends Activity {
 			data.add("Compound Views");
 			data.add("QR Encode");
 			data.add("Vparser");
+			data.add("ProgressButton");
 //			data.add("PagerSlidingTabStrip");
 			return data;
 		}
