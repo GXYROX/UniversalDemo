@@ -3,14 +3,6 @@ package com.teenstian.universaldemo;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.teenstian.universaldemo.circleimage.CircleImageActivity;
-import com.teenstian.universaldemo.compoundviews.CompoundViewsActivity;
-import com.teenstian.universaldemo.demolayout.LayoutActivity;
-import com.teenstian.universaldemo.progressbutton.ProgressButtonActivity;
-import com.teenstian.universaldemo.qrcode.QREncodeActivity;
-import com.teenstian.universaldemo.viewanimation.ViewAnimationActivity;
-import com.teenstian.universaldemo.vparser.VparserMainActivity;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
@@ -24,6 +16,15 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.teenstian.universaldemo.circleimage.CircleImageActivity;
+import com.teenstian.universaldemo.compoundviews.CompoundViewsActivity;
+import com.teenstian.universaldemo.demolayout.LayoutActivity;
+import com.teenstian.universaldemo.pagersliding.PagerSlidingActivity;
+import com.teenstian.universaldemo.progressbutton.ProgressButtonActivity;
+import com.teenstian.universaldemo.qrcode.QREncodeActivity;
+import com.teenstian.universaldemo.viewanimation.ViewAnimationActivity;
+import com.teenstian.universaldemo.vparser.VparserMainActivity;
 
 
 public class MainActivity extends Activity {
@@ -110,9 +111,9 @@ public class MainActivity extends Activity {
 					case 6:
 						intent.setClass(getActivity(), ProgressButtonActivity.class);
 						break;
-//					case 7:
-//						intent.setClass(getActivity(), PagerSlidingActivity.class);
-//						break;
+					case 7:
+						intent.setClass(getActivity(), PagerSlidingActivity.class);
+						break;
 					default:
 						break;
 					}
@@ -132,7 +133,7 @@ public class MainActivity extends Activity {
 			data.add("QR Encode");
 			data.add("Vparser");
 			data.add("ProgressButton");
-//			data.add("PagerSlidingTabStrip");
+			data.add("PagerSlidingTabStrip");
 			return data;
 		}
 		
