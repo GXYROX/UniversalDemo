@@ -31,7 +31,9 @@
     <string name="IntegerProgressSample">Integer Progress Sample</string>
     <string name="StateChangeSample">State Change Sample</string>
     <string name="ProgressPaddingSample">Progress Padding Sample</string>
-
+    
+    <string name="action_contact">Contact</string>
+        
     <array name="sample_list">
         <item>Indeterminate Progress Sample</item>
         <item>Integer Progress Sample</item>

@@ -56,7 +56,8 @@
         </activity>
         <activity
             android:name="com.teenstian.universaldemo.pagersliding.PagerSlidingActivity"
-            android:label="@string/pager_sliding" >
+            android:label="@string/pager_sliding"
+            android:theme="@style/ActionBarAppTheme" >
         </activity>
         <activity
             android:name="com.teenstian.universaldemo.vparser.VparserMainActivity"
@@ -86,6 +87,7 @@
             android:name="com.teenstian.universaldemo.progressbutton.Sample4Activity"
             android:label="@string/circular_progress_button" >
         </activity>
+        
     </application>
 
 </manifest>
