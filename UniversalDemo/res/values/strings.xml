@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Universal Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_demo">Demo</string>
+    <string name="circle_image">Circle Image</string>
+    <string name="view_animation">View Animation</string>
+    <string name="compound_views">Compound Views</string>
+    <string name="qr_encode">QREncode</string>
+    <string name="pager_sliding">PagerSliding</string>
+
+    <string name="friend_count_label">How many friends do you have?</string>
+    <string name="count_friends_button">Count My Friends</string>
+    <string name="you_have_friends">I have %1$s friends.</string>
+    <string name="friend_name">Friend name</string>
+    
+    <string name="vparser">VParser</string>
+    <string name="play">Play Video</string>
+    <string name="website_url">Website url:</string>
+    <string name="sample">http://v.youku.com/v_show/id_XMzMyNzM5NDUy.html</string>
+    <string name="btn_parser">Parse</string>
+    <string name="btn_play">Play</string>
+    
+    <string name="circular_progress_button">Circular ProgressButton</string>
+    <string name="Upload">Upload</string>
+    <string name="Error">Error</string>
+    <string name="Complete">Complete</string>
+    <string name="IndeterminateProgressSample">Indeterminate Progress Sample</string>
+    <string name="IntegerProgressSample">Integer Progress Sample</string>
+    <string name="StateChangeSample">State Change Sample</string>
+    <string name="ProgressPaddingSample">Progress Padding Sample</string>
+    
+    <string name="action_contact">Contact</string>
+        
+    <string name="crouton">Crouton</string>
+    <string name="disclaimer">This app is not a complete example of what is possible with Crouton, merely a short demonstration of basic features.</string>
+    <string name="custom_title">Custom Crouton</string>
+    <string name="custom_message">Even with message!</string>
+    <string name="hint_duration">Display duration in milliseconds.</string>
+    <string name="hint_text">The text you want to display.</string>
+    <string name="button_show">Show</string>
+    <string name="display_on_top">Display on top</string>
+    <string name="text_demo">This is a demo text, enter text below to display.</string>
+    <string name="warning_duration">You\'ll need to set the duration!</string>
+    <string name="infinity_text">This Crouton will be visible until you click on it or rotate the device.</string>
+    <string name="repo_url">https://github.com/keyboardsurfer/Crouton</string>
+    <string name="gplus_url">https://plus.google.com/117509657298845443204</string>
+    <string name="credits">Crouton was written by %1$s.</string>
+    <string name="feedback">Feel free to provide feedback (bugs, etc) and pull requests on %1$s. Also further documentation is available there.</string>
+    <string name="attributions">This app uses software licensed under the %1$s. Further information can be seen in the app\'s source code on %2$s.</string>
+    <string name="about">About</string>
+    
+    <string name="swipe_listview">Swipe ListView</string>
+    <string name="package_info">Package Info</string>
+    
+    <array name="sample_list">
+        <item>Indeterminate Progress Sample</item>
+        <item>Integer Progress Sample</item>
+        <item>State Change Sample</item>
+        <item>Progress Padding Sample</item>
+    </array>
+    
+        <string name="open">Open</string>
+    <string name="googlePlay">Google Play</string>
+    <string name="uninstall">Uninstall</string>
+
+    <string name="cantOpen">Can\'t open this application</string>
+    <string name="settings">Settings</string>
+    <string name="mode">Swipe Mode</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="both">Both</string>
+    <string name="leftAction">Left Action</string>
+    <string name="reveal">Reveal</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="choice">Choice</string>
+    <string name="rightAction">Right Action</string>
+    <string name="rightOffset">Right Offset (%1$s dp)</string>
+    <string name="leftOffset">Left Offset (%1$s dp)</string>
+    <string name="dp">dp</string>
+    <string name="animationTime">Animation Time (Default: 0)</string>
+    <string name="milliseconds">Milliseconds</string>
+    <string name="openOnLongPress">Open On Long Press</string>
+
+    <string name="aboutMessage">This is just a simple demo for the Open Source SwipeListView Android Library by 47 Degrees. Find all source, documentation and packaged downloads at GitHub. Cheers!</string>
+    <string name="ok">Ok</string>
+
+    <string name="visit47">Visit 47deg</string>
+    <string name="goToGitHub">Go to GitHub</string>
+
+    <string name="dontShow">Don\'t show this message again</string>
+    <string name="others">Others</string>
+
+    <string name="loading">Loading</string>
+
+    <string name="newTag">New!</string>
+    <string name="discard">Discard</string>
+    
+</resources>
+ 
